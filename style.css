@@ -12,6 +12,7 @@
 {
 	background-image: url('img/sloths.jpg');
 	background-size: cover;
+	background-position: center;
 }
 
 #stop1
