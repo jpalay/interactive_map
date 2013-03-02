@@ -1,0 +1,32 @@
+.cover
+{
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#sloths
+{
+	background-image: url('img/sloths.jpg');
+	background-size: cover;
+}
+
+#stop1
+{
+	fill: #ff6000 !important;
+	-moz-transition: fill .25s; /* Firefox 4 */
+	-webkit-transition: fill .25s; /* Safari and Chrome */
+	-o-transition: fill .25s; /* Opera */
+}
+
+#stop1:hover
+{
+	cursor: pointer;
+	fill: #ff9000 !important;
+	-moz-transition: fill .25s; /* Firefox 4 */
+	-webkit-transition: fill .25s; /* Safari and Chrome */
+	-o-transition: fill .25s; /* Opera */
+}
