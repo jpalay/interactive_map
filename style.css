@@ -1,11 +1,56 @@
 .cover
 {
-	display: none;
+	z-index: 100;
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	top: 0px;
 	left: 0px;
+}
+
+.content
+{
+	float: left;
+	height: 90%;
+	width: 90%;
+}
+
+.bar
+{
+	float: left;
+	background-color: #000000;
+}
+
+.bar.top, .bar.bottom
+{
+	height: 5%;
+	width: 100%;
+}
+
+.bar.left, .bar.right
+{
+	height: 90%;
+	width: 5%;
+}
+
+.exit
+{
+	height: 100%;
+	width: 5%;
+	float: right;
+	background-color: orange;
+	-moz-transition: background-color .25s; /* Firefox 4 */
+	-webkit-transition: background-color .25s; /* Safari and Chrome */
+	-o-transition: background-color .25s; /* Opera */
+}
+
+.exit:hover
+{
+	background-color: red;
+	cursor: pointer;
+	-moz-transition: background-color .25s; /* Firefox 4 */
+	-webkit-transition: background-color .25s; /* Safari and Chrome */
+	-o-transition: background-color .25s; /* Opera */
 }
 
 #sloths
@@ -17,17 +62,38 @@
 
 #stop1
 {
+	cursor: pointer;
 	fill: #ff6000 !important;
-	-moz-transition: fill .25s; /* Firefox 4 */
-	-webkit-transition: fill .25s; /* Safari and Chrome */
-	-o-transition: fill .25s; /* Opera */
+	-webkit-transform: scale(1);
+	-mos-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform-origin: center;
+	-mos-transform-origin: center;
+	-o-transform-origin: center;
+	-ms-transform-origin: center;
+
+	-ms-transition: all .25s; /* Firefox 4 */	
+	-moz-transition: all .25s; /* Firefox 4 */
+	-webkit-transition: all .25s; /* Safari and Chrome */
+	-o-transition: all .25s; /* Opera */
 }
 
 #stop1:hover
 {
 	cursor: pointer;
 	fill: #ff9000 !important;
-	-moz-transition: fill .25s; /* Firefox 4 */
-	-webkit-transition: fill .25s; /* Safari and Chrome */
-	-o-transition: fill .25s; /* Opera */
+	-webkit-transform: scale(2);
+	-mos-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
+	-webkit-transform-origin: center;
+	-mos-transform-origin: center;
+	-o-transform-origin: center;
+	-ms-transform-origin: center;
+
+	-ms-transition: all .25s; /* Firefox 4 */	
+	-moz-transition: all .25s; /* Firefox 4 */
+	-webkit-transition: all .25s; /* Safari and Chrome */
+	-o-transition: all .25s; /* Opera */
 }

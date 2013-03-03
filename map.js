@@ -1,10 +1,15 @@
 $(function(){
+	// $(".stop").mouseover(function() {
+	// 		$(this).("sodipodi:rx", "10").attr("sodipodi:ry", "10");
+	// }).mouseout(function() {
+	// 		$(this).("sodipodi:rx", "5").attr("sodipodi:ry", "5");
+	// });
     $("#stop1").mouseup(function() {
-        $("#sloths").attr("style", "display:inline");
-        $("#stage").hide();
+        $("#slide1").fadeIn(500);
+        $("#stage").fadeOut(500);
     }); 
-    $("#sloths").mouseup(function(){
-    	$(this).hide();
-    	$("#stage").show();
+    $(".exit").mouseup(function(){
+    	$(this).parent().parent().fadeOut(500);
+    	$("#stage").fadeIn(500);
     });
 });
