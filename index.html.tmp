@@ -14,6 +14,7 @@
                 <div class="exit"></div>
             </div>
             <div class="bar left"></div>
+            <!-- Sloths from http://mudsweatmountaineers.files.wordpress.com/2012/06/img_7191.jpg -->
             <div class="content" id="sloths"></div>
             <div class="bar right"></div>
             <div class="bar bottom"></div>
@@ -25,11 +26,12 @@
             <div class="bar left"></div>
             <div class="content" id="vid">
                 <!-- Video from http://www.videezy.com/fire-and-smoke/620-fog-entering-from-under-door -->
-                <video src="media/videos/DoorMist.mp4" controls autoplay><p>ur browser sux</p></video>
+                <video src="media/videos/vid2.mp4" controls autoplay><p>ur browser sux</p></video>
             </div>
             <div class="bar right"></div>
             <div class="bar bottom"></div>
         </div>
+        <!-- Map from http://www.communityheritagemaps.com/cambridge1930/originals/18_cambridge_1930or.jpg -->
         <div id="stage"> 
           {{{SVG}}}
         </div>
