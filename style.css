@@ -73,10 +73,10 @@
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
-	-ms-transition: all .25s; /* Firefox 4 */	
-	-moz-transition: all .25s; /* Firefox 4 */
-	-webkit-transition: all .25s; /* Safari and Chrome */
-	-o-transition: all .25s; /* Opera */
+	-ms-transition: fill,-ms-transform .25s; /* Firefox 4 */	
+	-moz-transition: fill,-moz-transform .25s; /* Firefox 4 */
+	-webkit-transition: fill,-webkit-transform .25s; /* Safari and Chrome */
+	-o-transition: fill,-o-transform .25s; /* Opera */
 }
 
 #stop1:hover
@@ -92,8 +92,8 @@
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
-	-ms-transition: all .25s; /* Firefox 4 */	
-	-moz-transition: all .25s; /* Firefox 4 */
-	-webkit-transition: all .25s; /* Safari and Chrome */
-	-o-transition: all .25s; /* Opera */
+	-ms-transition: fill,-ms-transform .25s; /* Firefox 4 */	
+	-moz-transition: fill,-moz-transform .25s; /* Firefox 4 */
+	-webkit-transition: fill,-webkit-transform .25s; /* Safari and Chrome */
+	-o-transition: fill,-o-transform .25s; /* Opera */
 }
