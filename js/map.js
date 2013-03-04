@@ -3,6 +3,7 @@ var opacity =         0.1;
 var hover_opacity =   0.8;
 var initial_height =  544;
 var initial_width =   800;
+var map_height_pctg = 0.33;
 
 $(function(){
     $(".stop").mouseup(function() {
@@ -78,7 +79,7 @@ var delay = (function(){
 
 function resize_stage(speed)
 {
-    var height = window.innerHeight / 3;
+    var height = window.innerHeight * map_height_pctg;
     var width = height * initial_width / initial_height + 1;
     var margin = window.innerHeight - height;
 
