@@ -19,11 +19,11 @@ body
 	cursor: pointer;
 	fill: #ff6000 !important;
 	-webkit-transform: scale(1);
-	-mos-transform: scale(1);
+	-moz-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform-origin: center;
-	-mos-transform-origin: center;
+	-moz-transform-origin: center;
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
@@ -38,11 +38,11 @@ body
 	cursor: pointer;
 	fill: #ff9000 !important;
 	-webkit-transform: scale(2);
-	-mos-transform: scale(2);
+	-moz-transform: scale(2);
 	-o-transform: scale(2);
 	-ms-transform: scale(2);
 	-webkit-transform-origin: center;
-	-mos-transform-origin: center;
+	-moz-transform-origin: center;
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
@@ -56,11 +56,11 @@ body
 {
 	cursor: pointer;
 	-webkit-transform: scale(2);
-	-mos-transform: scale(2);
+	-moz-transform: scale(2);
 	-o-transform: scale(2);
 	-ms-transform: scale(2);
 	-webkit-transform-origin: center;
-	-mos-transform-origin: center;
+	-moz-transform-origin: center;
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
@@ -75,11 +75,11 @@ body
 	cursor: pointer;
 	fill: #ff9000 !important;
 	-webkit-transform: scale(3.5);
-	-mos-transform: scale(3.5);
+	-moz-transform: scale(3.5);
 	-o-transform: scale(3.5);
 	-ms-transform: scale(3.5);
 	-webkit-transform-origin: center;
-	-mos-transform-origin: center;
+	-moz-transform-origin: center;
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
