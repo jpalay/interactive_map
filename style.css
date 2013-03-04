@@ -1,3 +1,8 @@
+body
+{
+	margin: 0px;
+}
+
 .cover
 {
 	z-index: 100;
@@ -6,6 +11,7 @@
 	width: 100%;
 	top: 0px;
 	left: 0px;
+	display: none;
 }
 
 .content
@@ -60,15 +66,26 @@
 	background-position: center;
 }
 
-#vid
+.vid
 {
 	background-color: #000000;
 }
 
-#vid video
+.vid video
 {
 	width: 100%;
 	height: 100%;
+}
+
+#stage
+{
+	position: relative;
+	z-index: 1000;
+	height: 544px;
+	width: 800px;
+    margin: 0px;
+   	z-index: 1000;
+
 }
 
 .stop
@@ -84,10 +101,28 @@
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
-	-ms-transition: fill,-ms-transform .25s; /* Firefox 4 */	
-	-moz-transition: fill,-moz-transform .25s; /* Firefox 4 */
-	-webkit-transition: fill,-webkit-transform .25s; /* Safari and Chrome */
-	-o-transition: fill,-o-transform .25s; /* Opera */
+	-ms-transition: fill,-ms-transform .5s; /* Firefox 4 */	
+	-moz-transition: fill,-moz-transform .5s; /* Firefox 4 */
+	-webkit-transition: fill,-webkit-transform .5s; /* Safari and Chrome */
+	-o-transition: fill,-o-transform .5s; /* Opera */
+}
+
+.stop.enlarge
+{
+	cursor: pointer;
+	-webkit-transform: scale(2);
+	-mos-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
+	-webkit-transform-origin: center;
+	-mos-transform-origin: center;
+	-o-transform-origin: center;
+	-ms-transform-origin: center;
+
+	-ms-transition: -ms-transform .5s; /* Firefox 4 */	
+	-moz-transition: -moz-transform .5s; /* Firefox 4 */
+	-webkit-transition: -webkit-transform .5s; /* Safari and Chrome */
+	-o-transition: -o-transform .5s; /* Opera */
 }
 
 .stop:hover
@@ -103,8 +138,28 @@
 	-o-transform-origin: center;
 	-ms-transform-origin: center;
 
-	-ms-transition: fill,-ms-transform .25s; /* Firefox 4 */	
-	-moz-transition: fill,-moz-transform .25s; /* Firefox 4 */
-	-webkit-transition: fill,-webkit-transform .25s; /* Safari and Chrome */
-	-o-transition: fill,-o-transform .25s; /* Opera */
+	-ms-transition: fill,-ms-transform .5s; /* Firefox 4 */	
+	-moz-transition: fill,-moz-transform .5s; /* Firefox 4 */
+	-webkit-transition: fill,-webkit-transform .5s; /* Safari and Chrome */
+	-o-transition: fill,-o-transform .5s; /* Opera */
 }
+
+.stop.enlarge:hover
+{
+	cursor: pointer;
+	fill: #ff9000 !important;
+	-webkit-transform: scale(3.5);
+	-mos-transform: scale(3.5);
+	-o-transform: scale(3.5);
+	-ms-transform: scale(3.5);
+	-webkit-transform-origin: center;
+	-mos-transform-origin: center;
+	-o-transform-origin: center;
+	-ms-transform-origin: center;
+
+	-ms-transition: fill,-ms-transform .5s; /* Firefox 4 */	
+	-moz-transition: fill,-moz-transform .5s; /* Firefox 4 */
+	-webkit-transition: fill,-webkit-transform .5s; /* Safari and Chrome */
+	-o-transition: fill,-o-transform .5s; /* Opera */
+}
+

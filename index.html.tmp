@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>a map.</title>
+        <title>a map</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
-        <script src="js/jquery.videoBG.js"></script>
         <script src="js/map.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div class="cover" id="slide1" style="display:none;">
+        <div class="cover" id="slide1">
             <div class="bar top">
                 <div class="exit"></div>
             </div>
@@ -19,14 +18,18 @@
             <div class="bar right"></div>
             <div class="bar bottom"></div>
         </div>
-        <div class="cover" id="slide2" style="display:none;">
+        <div class="cover" id="slide2">
             <div class="bar top">
                 <div class="exit"></div>
             </div>
             <div class="bar left"></div>
-            <div class="content" id="vid">
+            <div class="content vid">
                 <!-- Video from http://www.videezy.com/fire-and-smoke/620-fog-entering-from-under-door -->
-                <video src="media/videos/DoorMist.mp4" controls autoplay><p>ur browser sux</p></video>
+                <video controls autoplay>
+                    <source src="media/videos/DoorMist.mp4" type="video/mp4">
+                    <source src="media/videos/DoorMist.webm" type="video/webm">
+                    <p>lol ur browser sux</p>
+                </video>
             </div>
             <div class="bar right"></div>
             <div class="bar bottom"></div>
